@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="mad.css">
+<script src='jquery.js'></script>
+<script src="mad_2.js"></script>
+<head></head>
+<body>
+<div style="padding-left:16px">
+  <h2></h2>
+  <p></p>
+</div>
+<center><div class="boxed">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Christmas MadLibs!!</h1>
+  <p>Please fill in the boxes with the asked for type of word!</p>
+  <form id='words' action="action_page.php">
+  NOUN 1:<br>
+  <input type="text" name="noun1"  value="" class="noun">
+  <br><br>
+  VERB 1:<br>
+  <input type="text" name="verb1" value="" class="verb">
+  <br><br>
+  ADJECTIVE 1:<br>
+  <input type="text" name="adj1" value="" class="adj">
+  <br><br>
+  NOUN 2:<br>
+  <input type="text" name="noun2" value="" class="noun">
+  <br><br>
+  VERB 2:<br>
+  <input type="text" name="verb2" value="" class="verb">
+  <br><br>
+  ADJECTIVE 2:<br>
+  <input type="text" name="adj2" value="" class="adj">
+  <br><br>
+  NOUN 3:<br>
+  <input type="text" name="noun3" value="" class="noun">
+  <br><br>
+  VERB 3:<br>
+  <input type="text" name="verb3" value="" class="verb">
+  <br><br>
+  ADJECTIVE 3:<br>
+  <input type="text" name="adj3" value="" class="adj">
+  <br><br>
+  NOUN 4:<br>
+  <input type="text" name="noun4" value="" class="noun">
+  <br><br>
+  VERB 4:<br>
+  <input type="text" name="verb4" value="" class="verb">
+  <br><br>
+  ADJECTIVE 4:<br>
+  <input type="text" name="adj4" value="" class="adj">
+  <br><br>
+  NOUN 5:<br>
+  <input type="text" name="noun5" value="" class="noun">
+  <br><br>
+  VERB 5:<br>
+  <input type="text" name="verb5" value="" class="verb">
+  <br><br>
+  ADJECTIVE 5:<br>
+  <input type="text" name="adj5" value="" class="adj">
+  <br><br>
+</form>
+</div>
+<div id='buttons'>
+<button id='b3'type="button">SEE YOUR MAD LIB!</button>
+</div>
+<audio id='music' onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 3000)" onended="song()">
+        <source src="peanuts.mp3" type="audio/mp3" />
+    </audio>
+</center>
+</body>
+</html>
